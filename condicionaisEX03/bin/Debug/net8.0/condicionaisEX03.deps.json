@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "condicionaisEX03/1.0.0": {
+        "runtime": {
+          "condicionaisEX03.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "condicionaisEX03/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
