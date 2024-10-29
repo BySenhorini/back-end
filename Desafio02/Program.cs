@@ -1,30 +1,31 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-int[] vetor1 = new int[10];
-int[] vetor2 = new int[10];
+
+int[] vetor01 = new int[10];
+int[] vetor02 = new int[10];
 int[] vetorIntercalado = new int[20];  
 
 
-Console.WriteLine("Digite 10 números para o primeiro vetor:");
+Console.WriteLine("Por favor, digite 10 números para o primeiro vetor:");
 for (int i = 0; i < 10; i++)
 {
-    Console.Write($"Vetor 1 - Elemento {i + 1}: ");
-    vetor1[i] = int.Parse(Console.ReadLine());
+    Console.Write($"Vetor 01 - Elemento {i + 1}: ");
+    vetor01[i] = int.Parse(Console.ReadLine());
 }
 
 
-Console.WriteLine("Agora, por favor, digite 10 números para o segundo vetor:");
+Console.WriteLine("Agora, novamente, digite 10 números para o segundo vetor:");
 for (int i = 0; i < 10; i++)
 {
-    Console.Write($"Vetor 2 - Elemento {i + 1}: ");
-    vetor2[i] = int.Parse(Console.ReadLine());
+    Console.Write($"Vetor 02 - Elemento {i + 1}: ");
+    vetor02[i] = int.Parse(Console.ReadLine());
 }
 
 
 for (int i = 0, j = 0; i < 10; i++, j += 2)
 {
-    vetorIntercalado[j] = vetor1[i];      
-    vetorIntercalado[j + 1] = vetor2[i]; 
+    vetorIntercalado[j] = vetor01[i];      
+    vetorIntercalado[j + 1] = vetor02[i]; 
 }
 
 
